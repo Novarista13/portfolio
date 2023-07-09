@@ -1,0 +1,5 @@
+body {
+  color: var(--dark-color, #21243d);
+  font-family: Heebo;
+  line-height: 60px;
+}
