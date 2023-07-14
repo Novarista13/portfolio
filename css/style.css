@@ -1,9 +1,16 @@
 :root {
-  --primary-color: #1e549f;
-  --secondary-color: #f5f2fe;
+  --primary-color: #272044;
+  --secondary-color: #edf7fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+@media (max-width: 800px) {
+  .cards {
+    margin: 50px 0 !important;
+  }
+  h1 {
+    font-size: 60px !important;
+  }
+}
 body {
   color: var(--dark-color, #21243d);
   font-family: Heebo;
@@ -21,7 +28,7 @@ h1 {
 .navigation-link {
   margin-top: 60px;
 }
-.contact-link {
+.button {
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -30,4 +37,17 @@ h1 {
   padding: 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+.cards {
+  margin: 30px 100px;
+}
+.cards-bg {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+.sub-head {
+  padding: 10px !important;
+}
+.work-paragraph {
+  padding: 10px;
 }
