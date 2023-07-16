@@ -1,20 +1,24 @@
 :root {
-  --primary-color: #272044;
-  --secondary-color: #edf7fa;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #7e58de;
+  --box-shadow: 0 5px 10px rgba(125, 109, 109, 0.3);
 }
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .cards {
     margin: 50px 0 !important;
   }
   h1 {
     font-size: 60px !important;
   }
+  .hidden-word {
+    display: block !important;
+  }
 }
 body {
-  color: var(--dark-color, #21243d);
+  color: var(--primary-color);
   font-family: Heebo;
   line-height: 60px;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 .hero {
@@ -29,7 +33,9 @@ h1 {
   margin-top: 60px;
 }
 .button {
-  background-color: var(--primary-color);
+  background: #4568dc;
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
   box-shadow: var(--box-shadow);
   color: white;
   margin: 20px;
@@ -42,7 +48,6 @@ h1 {
   margin: 30px 100px;
 }
 .cards-bg {
-  background-color: var(--secondary-color);
   padding: 10px;
 }
 .sub-head {
@@ -50,4 +55,10 @@ h1 {
 }
 .work-paragraph {
   padding: 10px;
+}
+.social-link {
+  color: var(--primary-color);
+}
+.hidden-word {
+  display: none;
 }
