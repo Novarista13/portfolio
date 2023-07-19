@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #7e58de;
+  --primary-color: #6e69cc;
   --box-shadow: 0 5px 10px rgba(125, 109, 109, 0.3);
 }
 @media (max-width: 1000px) {
@@ -7,27 +7,40 @@
     margin: 50px 0 !important;
   }
   h1 {
-    font-size: 60px !important;
+    font-size: 40px !important;
   }
   .hidden-word {
     display: block !important;
   }
+  .work-image {
+    height: auto !important;
+  }
+  .about {
+    text-align: center;
+  }
+  .about-heading {
+    margin: 0 !important;
+  }
+  .pf-pic {
+    margin-top: 40px !important;
+    width: 250px !important;
+  }
+  .certi-paragraph {
+    padding: 0 !important;
+  }
 }
 body {
   color: var(--primary-color);
-  font-family: Heebo;
+  /* font-family: "Poppins", sans-serif; */
   line-height: 60px;
   background-color: #8ec5fc;
   background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
-
 .hero {
   padding: 50px 20px;
 }
 h1 {
-  font-size: 65px !important;
   font-weight: 500 !important;
-  color: var(--primary-color);
 }
 .navigation-link {
   margin-top: 60px;
@@ -61,4 +74,20 @@ h1 {
 }
 .hidden-word {
   display: none;
+}
+.contact-box {
+  max-width: 100% !important;
+}
+.certificates-page,
+.skills-page {
+  margin-top: 50px;
+}
+.contact-page {
+  margin-top: 50px;
+}
+.contact-rows {
+  padding-left: 30px;
+}
+.fa-regular {
+  color: var(--primary-color);
 }

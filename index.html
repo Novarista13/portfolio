@@ -15,16 +15,22 @@
     "
       defer
     ></script>
-    <script
+    <!-- <script
       src="https://kit.fontawesome.com/3f82c535da.js"
       crossorigin="anonymous"
       defer
-    ></script>
+    ></script> -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#"> Novarista </a>
+        <a class="navbar-brand" href="#"
+          ><i class="fa-regular fa-message-code"></i> Novarista
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,48 +44,49 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a
                 class="nav-link active"
                 aria-current="page"
                 title="home"
                 href="#"
-                >Home</a
               >
+                Home <i class="fa-regular fa-house-window"></i
+              ></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a
                 class="nav-link"
                 aria-current="page"
                 title="about"
                 href="about.html"
-                >About</a
-              >
+                >About <i class="fa-regular fa-circle-info"></i
+              ></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a
                 class="nav-link"
                 aria-current="page"
                 title="works"
                 href="works.html"
-                >Works</a
-              >
+                >Works <i class="fa-regular fa-list-check"></i
+              ></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a
                 class="nav-link"
                 aria-current="page"
                 title="contact"
                 href="contact.html"
-                >Contact</a
-              >
+                >Contact <i class="fa-regular fa-inboxes"></i
+              ></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="container-md hero text-center">
-      <h1>Hi,I am Nova,<br />Creative Technologist</h1>
+      <h1 style="font-size: 65px">Hi,I am Nova,<br />Creative Technologist</h1>
       <h3 class="text-muted" style="font-size: 24px; margin: 30px">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
         reiciendis doloribus dicta magni iste labore inventore maxime assumenda
@@ -92,98 +99,77 @@
     <div class="container-fluid cards-bg">
       <div class="container-md">
         <div class="cards position-relative">
-          <nav class="navbar container d-none d-md-block">
+          <nav class="navbar container d-none d-lg-block">
             <div class="container px-0">
-              <span class="mb-1 h3">Skills</span>
-              <span class="mb-1 h3">Certificates</span>
+              <span class="mb-1 h3"
+                >Skills <i class="fa-regular fa-webhook"></i
+              ></span>
+              <span class="mb-1 h3"
+                ><i class="fa-regular fa-file-certificate"></i>
+                Certificates</span
+              >
             </div>
           </nav>
-          <div class="row gap-5">
-            <div class="col-md col-12 card">
-              <div class="card-body">
-                <h3 class="text-start d-md-none d-block">Skills</h3>
-                <!-- <h6 class="text-start">Languages</h6> -->
-                <div class="row">
-                  <table class="col table table-bordered">
-                    <tr>
-                      <th
-                        scope="col"
-                        style="background-color: #272044; color: white"
-                      >
-                        Language
-                      </th>
-                    </tr>
-                    <tr>
-                      <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                      <td>PHP</td>
-                    </tr>
-                  </table>
-                  <table class="col table table-bordered">
-                    <tr>
-                      <th
-                        scope="col"
-                        style="background-color: #272044; color: white"
-                      >
-                        Framework
-                      </th>
-                    </tr>
-                    <tr>
-                      <td>React</td>
-                    </tr>
-                    <tr>
-                      <td>Laravel</td>
-                    </tr>
-                  </table>
+          <div class="row gap-lg-5 gap-3">
+            <div class="col-lg col-12 row">
+              <h3 class="text-start d-lg-none d-block ps-3 pt-3">Skills</h3>
+              <div class="col-lg-6 col-md-6 col-12 card">
+                <div class="card-body">
+                  <h5
+                    class="h5 card-title pb-1 border-bottom border-3 border-primary-subtle"
+                  >
+                    Language
+                  </h5>
+                  JavaScript <br />
+                  PHP
                 </div>
-                <div class="row">
-                  <table class="col table table-bordered">
-                    <tr>
-                      <th
-                        scope="col"
-                        style="background-color: #272044; color: white"
-                      >
-                        Others
-                      </th>
-                    </tr>
-                    <tr>
-                      <td>HTML</td>
-                    </tr>
-                    <tr>
-                      <td>CSS</td>
-                    </tr>
-                  </table>
-                  <table class="col table table-bordered">
-                    <tr>
-                      <th
-                        scope="col"
-                        style="background-color: #272044; color: white"
-                      >
-                        Database
-                      </th>
-                    </tr>
-                    <tr>
-                      <td>MongoDB</td>
-                    </tr>
-                    <tr>
-                      <td>MySQL</td>
-                    </tr>
-                  </table>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 card">
+                <div class="card-body">
+                  <h5
+                    class="h5 card-title pb-1 border-bottom border-3 border-primary-subtle"
+                  >
+                    Frames
+                  </h5>
+                  React <br />
+                  Laravel <br />
+                  Bootstrap
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 card">
+                <div class="card-body">
+                  <h5
+                    class="h5 card-title pb-1 border-bottom border-3 border-primary-subtle"
+                  >
+                    Others
+                  </h5>
+                  HTML <br />
+                  CSS
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-12 card">
+                <div class="card-body">
+                  <h5
+                    class="h5 card-title pb-1 border-bottom border-3 border-primary-subtle"
+                  >
+                    Database
+                  </h5>
+                  MongoDB <br />
+                  MySQL
                 </div>
               </div>
             </div>
 
-            <div class="col-md col-12 card p-0">
+            <div class="col-lg col-12 card p-0">
               <!-- <div class="card-body"> -->
-                <h3 class="text-start d-md-none d-block ps-3 pt-3">Certificates</h3>
-                <img
-                  src="images/SheCodes1.png"
-                  alt="SheCodesCertificate"
-                  class="img-fluid"
-                />
-                <h5 class="p-3 hidden-word">SheCodes Certificates</h5>
-              <!-- </div> -->
+              <h3 class="text-start d-lg-none d-block ps-3 pt-3">
+                Certificates
+              </h3>
+              <img
+                src="images/SheCodes1.png"
+                alt="SheCodesCertificate"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
@@ -193,29 +179,29 @@
       <div class="cards">
         <nav class="navbar container">
           <div class="px-0 my-5">
-            <span class="h3">Featured works</span>
+            <span class="h2"
+              >Featured works <i class="fa-regular fa-rectangle-history"></i
+            ></span>
           </div>
         </nav>
         <div class="row mb-5">
           <img
             src="images/weather.png"
             alt="weather app"
-            class="img-fluid col-md-6"
+            class="img-fluid work-image col-md-6"
+            style="height: 250px"
           />
-          <div class="work-paragraph col-md-6">
-            <h2>Weather App</h2>
-            <div class="my-3">
+          <div class="work-paragraph my-auto ps-5 lh-lg col-md-6">
+            <h1 class="my-0">
+              Weather App <i class="fa-regular fa-cloud-bolt-sun"></i>
+            </h1>
+            <div class="mb-3">
               <div class="badge bg-primary">2023</div>
-              <div class="badge" style="color: #8695a4">weather website</div>
+              <div class="badge" style="color: #8695a4">
+                Built with HTML, CSS & JavaScript
+              </div>
             </div>
-            <p>
-              This is the best app for people who want to know weather
-              conditions precisely.Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Alias omnis dolor debitis maxime placeat odit?
-            </p>
-            <a href="#" title="weatherApp" class="button p-2 ms-0"
-              >weatherApp</a
-            >
+            <a href="#" title="yogurtApp" class="button p-2 ms-0">WeatherApp</a>
           </div>
         </div>
         <hr />
@@ -223,20 +209,20 @@
           <img
             src="images/yoga.png"
             alt="yoga app"
-            class="img-fluid col-md-6"
+            class="img-fluid work-image col-md-6"
+            style="height: 250px"
           />
-          <div class="work-paragraph col-md-6">
-            <h2>Yoga App</h2>
-            <div class="my-3">
+          <div class="work-paragraph my-auto ps-5 lh-lg col-md-6">
+            <h1 class="my-0">
+              Yoga App <i class="fa-regular fa-person-walking"></i>
+            </h1>
+            <div class="mb-3">
               <div class="badge bg-primary">2023</div>
-              <div class="badge" style="color: #8695a4">yoga website</div>
+              <div class="badge" style="color: #8695a4">
+                Built with HTML, CSS & Bootstrap
+              </div>
             </div>
-            <p>
-              This is the best app for people who want to know weather
-              conditions precisely.Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Alias omnis dolor debitis maxime placeat odit?
-            </p>
-            <a href="#" title="yogaApp" class="button p-2 ms-0">yogaApp</a>
+            <a href="#" title="yogurtApp" class="button p-2 ms-0">YogaApp</a>
           </div>
         </div>
         <hr />
@@ -244,32 +230,32 @@
           <img
             src="images/yogurt.png"
             alt="yogurt app"
-            class="img-fluid col-md-6"
-            height="300px"
+            class="img-fluid work-image col-md-6"
+            style="height: 250px"
           />
-          <div class="work-paragraph col-md-6">
-            <h2>Yogurt App</h2>
-            <div class="my-3">
+          <div class="work-paragraph my-auto ps-5 lh-lg col-md-6">
+            <h1 class="my-0">
+              Yogurt App <i class="fa-regular fa-bowl-soft-serve"></i>
+            </h1>
+            <div class="mb-3">
               <div class="badge bg-primary">2023</div>
-              <div class="badge" style="color: #8695a4">yogurt website</div>
+              <div class="badge" style="color: #8695a4">
+                Built with HTML & CSS
+              </div>
             </div>
-            <p>
-              This is the best app for people who want to know weather
-              conditions precisely.Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Alias omnis dolor debitis maxime placeat odit?
-            </p>
             <a href="#" title="yogurtApp" class="button p-2 ms-0">yogurtApp</a>
           </div>
         </div>
+        <hr />
       </div>
     </div>
     <footer style="margin-top: 100px">
       <div class="social-link mt-5 mb-3 text-center">
-        <i class="fa-brands fa-facebook fa-2xl me-3"></i>
-        <i class="fa-brands fa-instagram fa-2xl me-3"></i>
-        <i class="fa-brands fa-twitter fa-2xl me-3"></i>
-        <i class="fa-brands fa-linkedin fa-2xl me-3"></i>
-        <i class="fa-brands fa-github fa-2xl me-3"></i>
+        <i class="fa-brands fa-facebook fa-xl me-3"></i>
+        <i class="fa-brands fa-instagram fa-xl me-3"></i>
+        <i class="fa-brands fa-twitter fa-xl me-3"></i>
+        <i class="fa-brands fa-linkedin fa-xl me-3"></i>
+        <i class="fa-brands fa-github fa-xl me-3"></i>
       </div>
       <p class="text-center">Copyright ©2023 All rights reserved</p>
     </footer>
