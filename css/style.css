@@ -1,5 +1,6 @@
 :root {
   --primary-color: #6e69cc;
+  --bs-border-style: #6e69cc;
   --box-shadow: 0 5px 10px rgba(125, 109, 109, 0.3);
 }
 @media (max-width: 1000px) {
@@ -87,4 +88,7 @@ h1 {
 }
 .fa-regular {
   color: var(--primary-color);
+}
+.border-table {
+  border-bottom: 3px solid #6e69cc;
 }
