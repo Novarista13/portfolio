@@ -29,9 +29,6 @@
   .certi-paragraph {
     padding: 0 !important;
   }
-  .work-paragraph {
-    padding: 10px !important;
-  }
 }
 body {
   color: var(--primary-color);
@@ -61,6 +58,9 @@ h1 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.button:hover {
+  opacity: 0.8;
+}
 .cards {
   margin: 30px 100px;
 }
@@ -71,10 +71,14 @@ h1 {
   padding: 10px !important;
 }
 .work-paragraph {
-  padding-top: 48px;
+  padding: 10px;
 }
 .social-link {
   color: var(--primary-color);
+  font-size: 40px;
+}
+.social-link:hover {
+  opacity: 0.8;
 }
 .hidden-word {
   display: none;
