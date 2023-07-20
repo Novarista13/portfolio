@@ -80,6 +80,9 @@ h1 {
 .social-link:hover {
   opacity: 0.8;
 }
+.contact-info-links {
+  color: var(--primary-color);
+}
 .hidden-word {
   display: none;
 }
