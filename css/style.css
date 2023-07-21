@@ -29,6 +29,9 @@
   .certi-paragraph {
     padding: 0 !important;
   }
+  .certi-paragraph {
+    margin-top: 18px;
+  }
 }
 body {
   color: var(--primary-color);
